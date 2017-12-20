@@ -1,0 +1,775 @@
+commit 86361a069132b10f7c80028832053cb59229a9e7
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Fri Dec 8 16:50:44 2017 -0500
+
+    Board looks nice!
+
+commit 2edd28f1945d5e727b24e777aa5c0797b62b264f
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Fri Dec 8 16:36:59 2017 -0500
+
+    Fixed not shwoing move_ghosted
+
+commit 4f46f081947c5bb0bc7f005c906d6a80a9fcf0a8
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Fri Dec 8 16:33:36 2017 -0500
+
+    Consolidated valid_move()
+
+commit 0cc37a6cd82a64fb151e9d36d15c456ebcf5fc0f
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Fri Dec 8 16:03:17 2017 -0500
+
+    Cleaned make_move
+
+commit 34aa7b6d784aa7bad7fa34f86f85acf118543e85
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Fri Dec 8 15:40:32 2017 -0500
+
+    Added end_checks function
+
+commit 5dff43af02a46f18880be4c23d8f52245c2c8c76
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Fri Dec 8 00:14:51 2017 -0500
+
+    Fixed Handle/Checked discrepency
+
+commit 538dd379e6ec164e518532d700fba5ab04d5d6da
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Thu Dec 7 23:56:04 2017 -0500
+
+    Used abs() to clean up ChessPiece.cpp
+
+commit 00ea8b3f380c25097b0f85b46d4b573dd88b3f1e
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Thu Dec 7 21:15:44 2017 -0500
+
+    Added header file to everything
+
+commit b0845303847ba7f21e83f6eafa172170e619d7a2
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 21:01:58 2017 -0500
+
+    ChessGame.cpp header comment
+
+commit 78a820c81f102eea945286523b776be30ef9af0f
+Merge: 08582e5 590338e
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 20:46:56 2017 -0500
+
+    Merge branch 'master' of https://bitbucket.org/apolevo1/220final
+
+commit 08582e543c4dcfed93e59b3795deda58725a86bb
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 20:46:25 2017 -0500
+
+    README added
+
+commit 590338eb4af37b923673358f89850535c9ef48fa
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Thu Dec 7 20:42:36 2017 -0500
+
+    Commented ChessPiece.cpp, fixed king bug
+
+commit fc5cd076263aa7f981c812d2b18574376547e717
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 20:32:29 2017 -0500
+
+    SpookyChess.* format, comments
+
+commit 7b1c6fb1c859e1f61f13f1243f1aea4203454092
+Merge: 52707e0 727d272
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 20:28:12 2017 -0500
+
+    Merge branch 'master' of https://bitbucket.org/apolevo1/220final
+
+commit 52707e02842338eb9a9c706564353fbdaa843110
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 20:27:09 2017 -0500
+
+    KOTH.cpp again
+
+commit 727d2722a1d0cd191a85ae8ee261626c6a83a93e
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Thu Dec 7 20:26:31 2017 -0500
+
+    Cleaned up ChessPiece.h
+
+commit e9838aa0540f3b6c0d215477fee1fdaed8f11357
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Thu Dec 7 20:20:23 2017 -0500
+
+    Commented Game.cpp
+
+commit fadf8622be068416967595c0eb86055b1b224384
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 20:18:47 2017 -0500
+
+    Piece.h format/comment
+
+commit 64826f024fd27ebb4ed7b8bd4b3b8a1251da0592
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 20:11:41 2017 -0500
+
+    KingOfTheHill format/comment (both of them)
+
+commit 0c3d7d4362aefaea37a08b9f7c0c73a77e4ae48e
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 20:04:43 2017 -0500
+
+    Enumerations.h comment/format
+
+commit 71b40b27132d1837bca6499180d1e557295096e7
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 20:03:42 2017 -0500
+
+    ChessGame.h comment/format
+
+commit 3442d437a95ed9753cdfe4248ee3f20e457961ed
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 19:58:38 2017 -0500
+
+    ChessGame.cpp comment/format
+
+commit bef42f0b8806893eb87579912540809d67b139bc
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 19:44:33 2017 -0500
+
+    Game.h comment/format
+
+commit 31fb92e88c8c412f22a72e44ee278b5bda90842f
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Dec 7 19:41:55 2017 -0500
+
+    Play.cpp comment/format
+
+commit 97f7b06cd81bd60ce51df6ed44c4072102be6e8b
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Wed Dec 6 19:52:45 2017 -0500
+
+    Valgrind errors fixed
+
+commit 0a8905231a451fb971697353e6d7a98d42bb4fea
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Wed Dec 6 19:21:54 2017 -0500
+
+    Changed quit to q
+
+commit 1ae216891875f4d789456b3f78bb81f5b2882e67
+Merge: 128dee0 291822e
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Wed Dec 6 19:18:22 2017 -0500
+
+    ChessPiece.h definitions moved to .cpp
+
+commit 128dee0ce44ce220100eaf844b9c52133117f510
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Wed Dec 6 19:15:43 2017 -0500
+
+    ChessPiece.h definitions moved to ChessPiece.cpp
+
+commit 291822ee5f41949ba448d9348aaecbd34b64ccbf
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Wed Dec 6 19:10:06 2017 -0500
+
+    Parsing fix
+
+commit eec6a999e72a1a2471355b463bd41887a3866a83
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Wed Dec 6 19:06:14 2017 -0500
+
+    rand() correclty initialized
+
+commit 2b05784417e376dddf4f63de292ecc492f33a83e
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Wed Dec 6 18:55:13 2017 -0500
+
+    Ghost check working
+
+commit afac46bfe990cc78a3e77eda6ccf2aae34192778
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Wed Dec 6 18:34:38 2017 -0500
+
+    Ghost checkmate works
+
+commit 5c75fbf4b11cf58ed67b7d4b17e669eec9632d46
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Wed Dec 6 18:25:40 2017 -0500
+
+    Stuff
+
+commit a8176586261113206b60e261e52db596e7709398
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Wed Dec 6 18:09:23 2017 -0500
+
+    ghost loads properly
+
+commit 09a5b217400cec601742da2a5c9bec2e8055e71b
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Wed Dec 6 17:59:36 2017 -0500
+
+    saving saves ghost position again
+
+commit 374647e46bed6f1999872d0bb6431d49a27cb671
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Wed Dec 6 17:52:05 2017 -0500
+
+    Fixed bug
+
+commit ca7ef4ece817ff2503a841a87f9c8d131d27b44b
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Wed Dec 6 17:49:45 2017 -0500
+
+    Implemented Ghost Checkmate
+
+commit fa079f47b67eb42f898dda652cd7500f42217eda
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Wed Dec 6 17:44:09 2017 -0500
+
+    Makefile got rid of some dependencies
+
+commit 00408cbf9e5dff614f6c7c20d10959d884131a15
+Merge: ef8e71a 9d18c8d
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Wed Dec 6 17:37:32 2017 -0500
+
+    Merge branch 'master' of https://bitbucket.org/apolevo1/220final
+
+commit ef8e71a4bcd19ab8573925a75e5e23fe17169c5c
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Wed Dec 6 17:37:02 2017 -0500
+
+    spookychecktest
+
+commit 9d18c8d5d26b009dac19a428037eb4a9fc9f877f
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Wed Dec 6 17:34:34 2017 -0500
+
+    ChessPiece.cpp works
+
+commit 1e9c9bbebdb54a5aa7fc524161aa306d09637e8a
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Wed Dec 6 17:19:24 2017 -0500
+
+    Must_handle and exposed fixed
+
+commit f3a885f8f150671d5abfe91be66eefc4f0a12ae4
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Wed Dec 6 17:10:11 2017 -0500
+
+    Removed instances of game_over()
+
+commit 37182e2d4165e643c43b9e507ee180ce87e3b199
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Wed Dec 6 11:08:16 2017 -0500
+
+    Got rid of unnecesarry std::
+
+commit 9e84e57768ac216ba37ba03b2f3bca7b196b48dc
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Wed Dec 6 11:06:30 2017 -0500
+
+    Move parsing should work 100%
+
+commit 2b0d07c6ad40cd79d43a276c947457a419300c45
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Wed Dec 6 10:51:52 2017 -0500
+
+    Mixing semicolon fixeD
+
+commit 9eedb3cf8f1418c7e239808f2d9955a9845a11d1
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Wed Dec 6 10:49:25 2017 -0500
+
+    Cleaned up game.cpp
+
+commit c1e6849c741eb9e8ebf169a21fdf0942cadeb6e0
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Dec 5 13:30:58 2017 -0500
+
+    Made _gametype protected instead of public
+
+commit 44219a2c1b1d4932d3f2210fb4a19c9efa7cb4f1
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Dec 5 13:28:23 2017 -0500
+
+    Consolidated load ans ave
+
+commit 68415744d3956e3fea1f7ca779f7de11ecf48a06
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Dec 5 12:50:32 2017 -0500
+
+    trying to consolidate save
+
+commit ce9a26a1a5b510981688191aabc5e0216e66d75c
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Dec 5 12:40:30 2017 -0500
+
+    Got rid of extra outputs
+
+commit 8bc1762b0463749ac3b18e049e0600e6c041907a
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Mon Dec 4 16:21:03 2017 -0500
+
+    Spooky load and save numgen fix
+
+commit 63b26e44d62beadf5918617d6d516b71e2efcb2c
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Sun Dec 3 20:23:40 2017 -0500
+
+    KOTH load working properly
+
+commit c564402b658b9a4471a2d2722374b78ff8f8626c
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Sun Dec 3 15:19:01 2017 -0500
+
+    Spooky saving and loading complete
+
+commit 0d1b2e002fa951ce3ae595ec18c9f57b9362a46d
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Sun Dec 3 15:10:40 2017 -0500
+
+    tried to get Chess and KOTH to only save/load files of their respoective type, but was unsuccessful. I'm not sure how important this will be, so I'll leave it where it is fror now. Later on, if we can't figure it out, we should delete stuff relating to the use of _gametype, which I have commented out for now
+
+commit 5ad8c49eca30db570a4d3d64f2afa30466df478a
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sun Dec 3 14:19:32 2017 -0500
+
+    KOTH Works
+
+commit a863346bf2f0ab1b8c08391dffa291ad8ec57d24
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Sun Dec 3 13:29:13 2017 -0500
+
+    KOTH/Chess saving work
+
+commit 8d3822f55dec36d0f02503a1ccaa2eba1e197245
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Sun Dec 3 13:00:31 2017 -0500
+
+    fixed loading problem where ghost didnt move
+
+commit c64994efaf62a950c05e1c464b8e4753d18a7a30
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sun Dec 3 11:59:36 2017 -0500
+
+    Cleaned up unnecessary files
+
+commit 755efee8c665ee0fe0ec194bf3a8ec9ea703c628
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sat Dec 2 18:58:48 2017 -0500
+
+    Spooky load works
+
+commit 9849f07cfa29452ccb33db036ed6836c7ee8a571
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sat Dec 2 18:29:26 2017 -0500
+
+    Load kinda works
+
+commit 6361fea6918fbb88c62831d44fd37231e8e4cff3
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Sat Dec 2 18:18:53 2017 -0500
+
+    Spooky save not working
+
+commit 86bd8f2ed658e41553eacb9518c0a30d6a390b52
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sat Dec 2 18:00:45 2017 -0500
+
+    Pawn can't move diagonal w/o capture
+
+commit 594da25bdd15e34f38bb4ab937ccdcbf79716472
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sat Dec 2 17:49:27 2017 -0500
+
+    Spooky ghost moves
+
+commit 49f11df4d2e94d68951e0a76b133458aa9d67f56
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Sat Dec 2 17:39:09 2017 -0500
+
+    Spooky Ghost progress. Not working yet
+
+commit 2d096be1c565fcbb930e8742b0792dc2479869c4
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sat Dec 2 17:18:12 2017 -0500
+
+    Spooky working?
+
+commit 2a33fba1d401391c86bee9cf96691917cc115569
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Sat Dec 2 16:53:18 2017 -0500
+
+    Fixed load error, tested valgrind
+
+commit 2f2f647862a96b9a8d97a986beda12a3c8674a6d
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Sat Dec 2 16:45:13 2017 -0500
+
+    King of the Hill written
+
+commit 3014b383f9cbe5323f78d529f78e1aef62c32636
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sat Dec 2 16:31:15 2017 -0500
+
+    Added conquered stuff
+
+commit 6dc252a343a8dd63f41df536b173d42ad0892f3d
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Wed Nov 29 21:44:08 2017 -0500
+
+    Properly exits upon load failure
+
+commit 01ea1fcb452ef9d1931ca123788e0a1cec871116
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 28 19:04:48 2017 -0500
+
+    Stale works
+
+commit 3ab6ff63453d92f5c772422db8c95984152f9367
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 28 19:00:29 2017 -0500
+
+    Stalemate implemented
+
+commit 6de105636ba6f8db797a13d6c3e8803e494c5266
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 28 18:48:45 2017 -0500
+
+    Checkmate works
+
+commit 07becc6238f376113d0b0cabf7be9afa150e1c2d
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 28 18:42:45 2017 -0500
+
+    Fixed valid_move
+
+commit b54f14c24f0df0729861e77bb78b688bbb441824
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 28 18:34:08 2017 -0500
+
+    testing
+
+commit f4d7c80f72bd25246c1631d2d74fdafe81214e06
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Tue Nov 28 18:27:04 2017 -0500
+
+    Fixed Exposure bug, didn't fix checkmate
+
+commit a47b5366b8fccfec776f0c7339ec518584f96fb6
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 28 18:00:02 2017 -0500
+
+    Fixed capture prompt
+
+commit 1113bbc9b921d032f0bfb1eaf353361386e17247
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 28 17:58:59 2017 -0500
+
+    Fixed prompt erros
+
+commit 72430d30a873a085baad7a688b58fa3dad89ce70
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 28 17:52:34 2017 -0500
+
+    Checkmate written but not working yet
+
+commit 46f673f9d723eb414fccc2f0adbed58d4d9cc31d
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sun Nov 26 22:07:01 2017 -0500
+
+    Pawn can now move 2 at beginning
+
+commit d4b9259dbbad3a450c6aa8d7e90f2dcf7cfce9a2
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sun Nov 26 21:57:39 2017 -0500
+
+    Fixed valgrind error when taking piece
+
+commit 13583cd0c25ef5986c1ac98dc7a2555fe0e7103e
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sun Nov 26 21:37:27 2017 -0500
+
+    Expose check works now
+
+commit 9d735468d27302dff2d9ff9595a9700839808d59
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Sun Nov 26 21:10:11 2017 -0500
+
+    Check function works
+
+commit fb847f2efbfd9865dcb9383a761bb3c25fe62427
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Sun Nov 26 21:04:09 2017 -0500
+
+    Testing check function
+
+commit cab6c8bf193f0352c1fa4d04c6f617eb3ae7b312
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Sun Nov 26 20:50:47 2017 -0500
+
+    check and valid_move progress
+
+commit d37ba01c265f90f9da5a2d48bceb33779bfcdb37
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sun Nov 26 20:23:06 2017 -0500
+
+    Updated King position
+
+commit a89cea08d1827c386d97a74b49f7be57acf0c5f8
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Sun Nov 26 20:06:12 2017 -0500
+
+    piecePosition method functional
+
+commit 28a51365f84d0ebc8b3823dc5d98eb6816ed99c9
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Sun Nov 26 19:34:00 2017 -0500
+
+    looked at code a bit
+
+commit 85307341e2b5bc2e67e1b4139b0d131a9e1b4c0d
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Nov 23 02:57:15 2017 -0500
+
+    king movement fixed
+
+commit 0528ce396ec0327c8bd961b9e2ff2b456c1b4015
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Thu Nov 23 02:53:06 2017 -0500
+
+    save function complete for chess, tested, but could use more testing
+
+commit 601cd64cc7f9be1c9fdcf5a55317655dfa19b70a
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Wed Nov 22 22:14:12 2017 -0500
+
+    save function progress. writes chess and turn number, but still need to write helper func to output position of a piece
+
+commit 526324851c74f224fffb37f1b6aede64705dfe35
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Wed Nov 22 21:40:34 2017 -0500
+
+    save_game progress
+
+commit 24ba904a7516c28578d6b6321489c937ca9c12c4
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Wed Nov 22 21:21:48 2017 -0500
+
+    save function started
+
+commit c5c67ceca66bc40efad47347fb4b04710df48ff8
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Wed Nov 22 00:35:47 2017 -0500
+
+    prevents loading when king is not present. Load failure does no yet quit the game. Gotta figure that out still.
+
+commit cd5a8c23e6d5821c66f40fb0fee180f888fc3935
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 21 23:13:14 2017 -0500
+
+    successfully loaded the test save file
+
+commit 665d0a71fdce95af25987117d8c0d6db4bfde4ce
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 21 13:39:37 2017 -0500
+
+    compiles, but seg faults. Test outputs are not correct.
+
+commit de48e885f4cff26c816bf1c4f8e0acb351ae834c
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 21 13:12:01 2017 -0500
+
+    load function doesn't compile becasue init_piece expects Player argument, but is getting integer argument
+
+commit 3c8e660e5e93b4d223c406bb951403ab8cbc0b7a
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 21 13:04:37 2017 -0500
+
+    Load function first draft complete
+
+commit 4e9d6513e03f40cd083543f626bf80adad1d3794
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 21 00:02:08 2017 -0500
+
+    added description of load_game
+
+commit 63f63e382a3aec6de529da550f9edffc6a65627c
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 21 00:00:21 2017 -0500
+
+    Load function added to Game, ChessGame
+
+commit bf28f41a68a61f538c85b8f3882bea9bda9f5100
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Mon Nov 20 23:17:07 2017 -0500
+
+    Knight trajectory now just includes start and end
+
+commit 4d3db36edda2e3a82897cd4d7c7bb29cd40983d2
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Mon Nov 20 23:06:47 2017 -0500
+
+    Knight can now jump over pieces
+
+commit d7d3d99b8a8a213faa201b5ab3a5021759021eb0
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Mon Nov 20 22:09:51 2017 -0500
+
+    Made small changes to board
+
+commit 422cbd0e9a02627c005ec91edcb9622004a3a6f3
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Mon Nov 20 21:34:24 2017 -0500
+
+    Completed valid_move_shape for Queen and King.  Warning: Not Tested!
+
+commit 21997d0b238b7e78205961a4a2fb3f7de264b0dc
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Mon Nov 20 21:24:19 2017 -0500
+
+    Completed valid_move_shape for knight and bishop.  Warning: not tested!
+
+commit c47ee529008834abe73ac2c5ab45e086dda439ae
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Mon Nov 20 20:51:15 2017 -0500
+
+    Added valid_move_shape for rook.  Warning: not tested
+
+commit fd7e935f0990686563fe3501c1904fe11aa9ee1b
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Mon Nov 20 20:23:33 2017 -0500
+
+    Added trajectory to pawn valid move shape
+
+commit 5cfc0a0676918d1a19d5ce0a6bc614842f6d913c
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Thu Nov 16 17:50:35 2017 -0500
+
+    Cleaned files
+
+commit 1af7e8ab529fbad58686f7b5835660f2ac161d4b
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Thu Nov 16 17:50:18 2017 -0500
+
+    Board looks better, and cleaned code
+
+commit 7d3a12fb72a28db23db6291c3d8f6fa608218acb
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 14 23:28:53 2017 -0500
+
+    Cleaned files
+
+commit 6dfd388ef87770c1b36131f18629bf1b4ea19bd7
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 14 23:28:32 2017 -0500
+
+    Errors now correspond to status numbers
+
+commit b98af0abc3fd01dae46a8c5c991c3fb181dda1d9
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 14 23:08:15 2017 -0500
+
+    cleaned up code
+
+commit aeffae202240b89d4e73c1ff03eb56589ce0ee53
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 14 22:25:03 2017 -0500
+
+    Board looks kinda nice
+
+commit 84c4187376a0e11a37e424d967ac81152886d7f1
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 14 22:24:31 2017 -0500
+
+    Got all pawn interactions working
+
+commit d42404f5283c60be5a149e06535ce529fd87c3c0
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 14 21:10:10 2017 -0500
+
+    Make move mostly working
+
+commit 93cd401cfc3c7e94ebfa3ad84eb09d6752f9898d
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 14 19:39:02 2017 -0500
+
+    Fixed game dsconstructor
+
+commit 0e16ba0217ecaf7a7479896efe9d3d8c11a7ce5e
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 14 16:42:25 2017 -0500
+
+    Board display and case insensitive user input implemented
+
+commit 1660bab0d527d315c50bdf37b5b68b0b84d8e0a3
+Merge: 419498b 578c981
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 14 16:16:27 2017 -0500
+
+    Merge branch 'master' of https://bitbucket.org/apolevo1/220final
+
+commit 578c981ee238753734520963ca271f60a4777e1b
+Merge: cfa547e 693a6da
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Tue Nov 14 16:15:46 2017 -0500
+
+    Merge branch 'master' of https://bitbucket.org/apolevo1/220final
+
+commit 419498be491fd6de1a50142ed9b5990cdcd4ba28
+Merge: 35a7478 693a6da
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 14 16:15:44 2017 -0500
+
+    Merge branch 'master' of https://bitbucket.org/apolevo1/220final
+
+commit 35a747866b43e1ea48b263b8475beeaa6b58b241
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 14 16:15:27 2017 -0500
+
+    work on game.cpp:run
+
+commit cfa547ea300ae013fc40333249a3d0af4510d1c1
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Tue Nov 14 16:14:58 2017 -0500
+
+    Added rudimentary board visualization
+
+commit 693a6da01478cb33db6b4f54927acaced5f85508
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Tue Nov 14 16:11:06 2017 -0500
+
+    Added gitignore file
+
+commit fa051ce514a364b05acb60eef1fcee3cfd26272c
+Merge: 7265780 a2118d4
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 14 16:01:44 2017 -0500
+
+    Merge branch 'master' of https://bitbucket.org/apolevo1/220final
+
+commit 72657801b7857dc422cada25a75acd950f3930c9
+Author: Andrew Efimov <aefimov1@jhu.edu>
+Date:   Tue Nov 14 15:59:05 2017 -0500
+
+    run function started
+
+commit a2118d4c33a507e13ffefd6a2f47577120f30f9b
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Tue Nov 14 15:27:09 2017 -0500
+
+    Getting Started
+
+commit 718d8558892abb30ea9b2e823e587cbedbff82ff
+Author: Daniel Sohn <dsohn45@gmail.com>
+Date:   Sun Nov 12 14:36:38 2017 -0500
+
+    Added Starter Files
+
+commit f43fac7644620c2ec210275693e767419add2e6e
+Author: Adam Polevoy <adampolevoy@gmail.com>
+Date:   Sun Nov 12 14:23:33 2017 -0500
+
+    Initial commit

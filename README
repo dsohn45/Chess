@@ -1,0 +1,22 @@
+/*
+  Andrew Efimov - aefimov1 - aefimov1@jhu.edu
+  Adam Polevoy - apolevo1 - adampolevoy@gmail.com
+  Daniel Sohn - dsohn3 - dsohn45@gmail.com
+  
+  Final Project
+  601.220
+  12/8/17
+*/
+
+TEAM
+Adam Polevoy	 apolevo1
+Daniel Sohn 	 dsohn3
+Andrew Efimov	 aefimov1
+
+COMPLETENESS
+As far as we know, everything is working. We did not implement castling.
+
+RUN/COMPILATION
+	Type the following:
+	1) make
+	2) ./play
